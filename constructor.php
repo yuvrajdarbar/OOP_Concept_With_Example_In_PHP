@@ -10,7 +10,7 @@ class cars{
 
     public function __construct($name,$color){
         echo "Car name is: " . $this->name = $name . "<br>";
-        echo "Car color is: " . $this->name = $color . "<br>";
+        echo "Car color is: " . $this->color = $color . "<br>";
     }
    }
    $BMW = new cars("BMW","black");
