@@ -4,14 +4,17 @@
 3. Destruct function starts with two underscores(__) -->
 
 <?php
-class cars{
+class cars
+{
     public $name;
-    public function __construct($name){
+    public function __construct($name)
+    {
         return $this->name = $name;
-    } 
-    public function __destruct(){
+    }
+    public function __destruct()
+    {
         echo "The car name is: " . $this->name . '<br>';
     }
 }
-$BMW = new cars("Audi");
+$BMW = New cars("Audi");
 ?>

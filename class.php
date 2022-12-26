@@ -5,13 +5,15 @@
 4. Class is a group of variables of different data types and group of methods. -->
 
 <?php
-class cars{
+class cars
+{
     public $name;      //Member variable   
     public $color;     //Member variable 
 
-    public function get_name($name,$color){     //Member function
+    public function get_name($name, $color)     //Member function
+    {    
         echo "Car name is: " . $this->name = $name . '<br>';
-        echo "Car Color is: " .$this->color = $color . '<br><br>';
+        echo "Car Color is: " . $this->color = $color . '<br><br>';
     }
 }
 ?>
